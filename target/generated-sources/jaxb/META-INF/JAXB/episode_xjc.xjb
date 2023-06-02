@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.06.02 a las 01:34:25 AM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://registro.uv.mx/registro">
+    <schemaBindings map="false">
+      <package name="https.registro_uv_mx.registro"/>
+    </schemaBindings>
+    <bindings scd="tns:BuscarRegistroResponse">
+      <class ref="https.registro_uv_mx.registro.BuscarRegistroResponse"/>
+    </bindings>
+    <bindings scd="tns:MostrarRegistrosResponse">
+      <class ref="https.registro_uv_mx.registro.MostrarRegistrosResponse"/>
+    </bindings>
+    <bindings scd="tns:AddRegistroRequest">
+      <class ref="https.registro_uv_mx.registro.AddRegistroRequest"/>
+    </bindings>
+    <bindings scd="tns:AddRegistroResponse">
+      <class ref="https.registro_uv_mx.registro.AddRegistroResponse"/>
+    </bindings>
+    <bindings scd="tns:BuscarRegistroRequest">
+      <class ref="https.registro_uv_mx.registro.BuscarRegistroRequest"/>
+    </bindings>
+    <bindings scd="tns:EliminarRegistroRequest">
+      <class ref="https.registro_uv_mx.registro.EliminarRegistroRequest"/>
+    </bindings>
+    <bindings scd="tns:EliminarRegistroResponse">
+      <class ref="https.registro_uv_mx.registro.EliminarRegistroResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
